@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test Suite,,,,2023-08-16 16:51:10,2023-08-16 16:51:16,5.100s,FAILED
+,,,,,,,
+Test Cases/Test2,,,,2023-08-16 16:51:11,2023-08-16 16:51:15,3.813s,FAILED
+"openBrowser("""")",,,,2023-08-16 16:51:11,2023-08-16 16:51:13,2.099s,FAILED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",,,,2023-08-16 16:51:13,2023-08-16 16:51:13,0.054s,FAILED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_username""), ""Admin"")",,,,2023-08-16 16:51:13,2023-08-16 16:51:14,0.338s,FAILED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",,,,2023-08-16 16:51:14,2023-08-16 16:51:14,0.149s,FAILED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",,,,2023-08-16 16:51:14,2023-08-16 16:51:14,0.185s,FAILED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Admin""))",,,,2023-08-16 16:51:14,2023-08-16 16:51:14,0.108s,FAILED
+"setText(findTestObject(""Page_OrangeHRM/empSearch""), ""paulq"")",,,,2023-08-16 16:51:14,2023-08-16 16:51:14,0.079s,FAILED
+"click(findTestObject(""Page_OrangeHRM/button_Search""))",,,,2023-08-16 16:51:14,2023-08-16 16:51:14,0.086s,FAILED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Invalid""))",,,,2023-08-16 16:51:14,2023-08-16 16:51:14,0.062s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/span_Invalid""), 0)",,,,2023-08-16 16:51:14,2023-08-16 16:51:14,0.073s,FAILED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/p_Paul Collings""))",,,,2023-08-16 16:51:14,2023-08-16 16:51:14,0.058s,FAILED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Logout""))",,,,2023-08-16 16:51:14,2023-08-16 16:51:15,0.062s,FAILED
+closeBrowser(),,,,2023-08-16 16:51:15,2023-08-16 16:51:15,0.016s,PASSED
+,,,,,,,
+Test Cases/Test3,,,,2023-08-16 16:51:15,2023-08-16 16:51:16,0.958s,FAILED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",,,,2023-08-16 16:51:15,2023-08-16 16:51:15,0.650s,FAILED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_username""), ""Admin"", STOP_ON_FAILURE)",,,,2023-08-16 16:51:15,2023-08-16 16:51:16,0.085s,FAILED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test is related to testing multiple Windows.</description>
+   <name>Test9 - Windows</name>
+   <tag>Multiplewindow</tag>
+   <comment></comment>
+   <testCaseGuid>e441ea19-02fd-4182-a734-c0ff1045eb7b</testCaseGuid>
+</TestCaseEntity>

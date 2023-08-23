@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BasicWebOps,,,,2023-08-23 15:54:36,2023-08-23 15:54:41,4.776s,FAILED
+,,,,,,,
+Test Cases/Test10 - Take Full Page Screenshot,,In this test will validate usage of takeFullPageScreenshot method.,fullPageScreenshot,2023-08-23 15:54:36,2023-08-23 15:54:41,4.556s,FAILED
+ignoredElements = new java.util.ArrayList(),,,,2023-08-23 15:54:36,2023-08-23 15:54:36,0.001s,PASSED
+"ignoredElements.add(findTestObject(""Object Repository/Frames/sampleAlertButton""))",,,,2023-08-23 15:54:36,2023-08-23 15:54:36,0.043s,PASSED
+"openBrowser(""https://trytestingthis.netlify.app/"")",,,,2023-08-23 15:54:36,2023-08-23 15:54:41,4.140s,FAILED
+path = takeFullPageScreenshot(ignoredElements),,,,2023-08-23 15:54:41,2023-08-23 15:54:41,0.028s,FAILED
+"out.print(""imagePath :"" + path)",,,,2023-08-23 15:54:41,2023-08-23 15:54:41,0.022s,PASSED

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BasicWebOps" time="14.547" tests="1" failures="0" errors="0">
+   <testsuite name="BasicWebOps" tests="1" failures="0" errors="0" time="14.547" skipped="0" timestamp="2023-08-23 15:55:19" hostname="krunalb - 192.168.1.11" id="Test Suites/BasicWebOps">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/krunalb/Katalon Studio/TestProject/Reports/20230823_155515/BasicWebOps/20230823_155516"/>
+         <property name="logFiles" value="/Users/krunalb/Katalon Studio/TestProject/Reports/20230823_155515/BasicWebOps/20230823_155516/execution0.log"/>
+         <property name="attachments" value="/Users/krunalb/Katalon Studio/TestProject/Reports/20230823_155515/BasicWebOps/20230823_155516/1692786327698.png"/>
+         <property name="hostName" value="krunalb - 192.168.1.11"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Safari 16"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="sessionId" value="091765A4-3C25-4D6A-B25E-C08FF314DE20"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Test10 - Take Full Page Screenshot" time="14.328" classname="Test Cases/Test10 - Take Full Page Screenshot" status="PASSED">
+         <system-out><![CDATA[2023-08-23 15:55:19 - [TEST_CASE][PASSED] - Test Cases/Test10 - Take Full Page Screenshot: Test Cases/Test10 - Take Full Page Screenshot
+
+2023-08-23 15:55:19 - [TEST_STEP][PASSED] - ignoredElements = new java.util.ArrayList(): null
+
+2023-08-23 15:55:19 - [TEST_STEP][PASSED] - ignoredElements.add(findTestObject("Object Repository/Frames/sampleAlertButton")): null
+
+2023-08-23 15:55:19 - [TEST_STEP][PASSED] - openBrowser("https://trytestingthis.netlify.app/"): Browser is opened with url: 'https://trytestingthis.netlify.app/'
+
+2023-08-23 15:55:19 - [MESSAGE][INFO] - Starting 'Safari' driver
+
+2023-08-23 15:55:19 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-08-23 15:55:19 - [MESSAGE][INFO] - Action delay is set to 5,000 milliseconds
+
+2023-08-23 15:55:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://trytestingthis.netlify.app/'
+
+2023-08-23 15:55:27 - [TEST_STEP][PASSED] - path = takeFullPageScreenshot(ignoredElements): Taking screenshot successfully
+
+2023-08-23 15:55:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 15:55:27 - [MESSAGE][INFO] - 1 hidden object(s)
+
+2023-08-23 15:55:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-23 15:55:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/krunalb/Katalon Studio/TestProject/Reports/20230823_155515/BasicWebOps/20230823_155516/1692786327698.png]]
+
+2023-08-23 15:55:33 - [TEST_STEP][PASSED] - out.print("imagePath :" + path): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-23 15:55:19 - [TEST_SUITE][PASSED] - BasicWebOps: Test Cases/Test10 - Take Full Page Screenshot]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test Suite,Safari 16,,,2023-08-16 16:57:13,2023-08-16 16:59:57,2m - 43.617s,FAILED
+,,,,,,,
+Test Cases/Test2,Safari 16,,,2023-08-16 16:57:14,2023-08-16 16:59:11,1m - 57.882s,FAILED
+"openBrowser("""")",Safari 16,,,2023-08-16 16:57:14,2023-08-16 16:57:18,3.594s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Safari 16,,,2023-08-16 16:57:18,2023-08-16 16:57:28,10.790s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_username""), ""Admin"")",Safari 16,,,2023-08-16 16:57:28,2023-08-16 16:57:31,2.647s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Safari 16,,,2023-08-16 16:57:31,2023-08-16 16:57:31,0.300s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Safari 16,,,2023-08-16 16:57:31,2023-08-16 16:57:33,2.200s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Admin""))",Safari 16,,,2023-08-16 16:57:33,2023-08-16 16:57:34,0.499s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/empSearch""), ""paulq"")",Safari 16,,,2023-08-16 16:57:34,2023-08-16 16:57:37,2.874s,FAILED
+"click(findTestObject(""Page_OrangeHRM/button_Search""))",Safari 16,,,2023-08-16 16:57:37,2023-08-16 16:57:37,0.321s,FAILED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Invalid""))",Safari 16,,,2023-08-16 16:57:37,2023-08-16 16:58:08,31.202s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/span_Invalid""), 0)",Safari 16,,,2023-08-16 16:58:08,2023-08-16 16:58:40,31.243s,FAILED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/p_Paul Collings""))",Safari 16,,,2023-08-16 16:58:40,2023-08-16 16:58:40,0.255s,FAILED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Logout""))",Safari 16,,,2023-08-16 16:58:40,2023-08-16 16:59:11,31.210s,FAILED
+closeBrowser(),Safari 16,,,2023-08-16 16:59:11,2023-08-16 16:59:11,0.347s,PASSED
+,,,,,,,
+Test Cases/Test3,Safari 16,,,2023-08-16 16:59:11,2023-08-16 16:59:57,45.383s,FAILED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Safari 16,,,2023-08-16 16:59:12,2023-08-16 16:59:18,6.667s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_username""), ""Admin"", STOP_ON_FAILURE)",Safari 16,,,2023-08-16 16:59:18,2023-08-16 16:59:19,1.199s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Password_password""), ""admin123"", STOP_ON_FAILURE)",Safari 16,,,2023-08-16 16:59:19,2023-08-16 16:59:20,0.350s,PASSED
+"click(findTestObject(""Page_OrangeHRM/button_Login""), STOP_ON_FAILURE)",Safari 16,,,2023-08-16 16:59:20,2023-08-16 16:59:21,1.649s,PASSED
+"click(findTestObject(""Page_OrangeHRM/span_Admin""))",Safari 16,,,2023-08-16 16:59:21,2023-08-16 16:59:22,0.502s,PASSED
+"click(findTestObject(""null""))",Safari 16,,,2023-08-16 16:59:22,2023-08-16 16:59:24,1.554s,FAILED
+"setText(findTestObject(""Page_OrangeHRM/userNameTextBox""), ""Admin"")",Safari 16,,,2023-08-16 16:59:24,2023-08-16 16:59:24,0.533s,FAILED
+"click(findTestObject(""Page_OrangeHRM/button_Search""))",Safari 16,,,2023-08-16 16:59:24,2023-08-16 16:59:24,0.257s,FAILED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/span_No Records Found""), 0)",Safari 16,,,2023-08-16 16:59:24,2023-08-16 16:59:56,31.202s,FAILED
+"click(findTestObject(""Page_OrangeHRM/i_Dashboard_oxd-icon bi-caret-down-fill oxd_d2fd49""))",Safari 16,,,2023-08-16 16:59:56,2023-08-16 16:59:56,0.151s,PASSED
+"click(findTestObject(""Page_OrangeHRM/a_Logout""))",Safari 16,,,2023-08-16 16:59:56,2023-08-16 16:59:57,0.951s,PASSED
+closeBrowser(),Safari 16,,,2023-08-16 16:59:57,2023-08-16 16:59:57,0.150s,PASSED

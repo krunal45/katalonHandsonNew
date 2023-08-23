@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BasicWebOps,Safari 16,,,2023-08-23 15:55:19,2023-08-23 15:55:33,14.547s,PASSED
+,,,,,,,
+Test Cases/Test10 - Take Full Page Screenshot,Safari 16,In this test will validate usage of takeFullPageScreenshot method.,fullPageScreenshot,2023-08-23 15:55:19,2023-08-23 15:55:33,14.328s,PASSED
+ignoredElements = new java.util.ArrayList(),Safari 16,,,2023-08-23 15:55:19,2023-08-23 15:55:19,0.001s,PASSED
+"ignoredElements.add(findTestObject(""Object Repository/Frames/sampleAlertButton""))",Safari 16,,,2023-08-23 15:55:19,2023-08-23 15:55:19,0.040s,PASSED
+"openBrowser(""https://trytestingthis.netlify.app/"")",Safari 16,,,2023-08-23 15:55:19,2023-08-23 15:55:27,7.887s,PASSED
+path = takeFullPageScreenshot(ignoredElements),Safari 16,,,2023-08-23 15:55:27,2023-08-23 15:55:33,6.079s,PASSED
+"out.print(""imagePath :"" + path)",Safari 16,,,2023-08-23 15:55:33,2023-08-23 15:55:33,0.009s,PASSED
